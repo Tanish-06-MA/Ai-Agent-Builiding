@@ -5,5 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "smolagents[openai]>=1.26.0",
+    "ddgs>=9.14.4",
+    "smolagents[gradio,openai]>=1.26.0",
+    "tavily-python>=0.7.26",
 ]
